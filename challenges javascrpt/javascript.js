@@ -43,3 +43,54 @@ function flipBoolean(input) {
 function isItTruthy(input) {
   return input ? "It's truthy!" : "It's falsey!";
 }
+
+
+
+// **** DO NOT CHANGE the values *****
+const a = 18;
+const b = 24;
+
+// Addition of two values
+function add() 
+{
+    let Add= a+b;
+    return Add;
+}
+
+// Subtract small value from larger one
+function subtract() {
+    let Subtract=b-a;
+    return Subtract;
+}
+
+function multiply() {
+    let Multiply=a*b;
+    return Multiply;
+}
+
+// Divide larger value by small
+function divide() {
+    let Divide=b/a;
+    return Divide;
+}
+
+
+// Increase value of a by 1
+function increment() {
+    let Increment=a;
+    Increment+= 1;
+    return Increment;
+}
+
+// Decrease value of b by 1
+function decrement() {
+    let Decrement=b;
+    Decrement-= 1;
+    return Decrement;
+}
+
+// Divide larger value by small to find the reminder
+function reminder() {
+    let Reminder=b%a;
+    return Reminder;
+}
